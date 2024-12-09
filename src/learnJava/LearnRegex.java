@@ -20,6 +20,7 @@ public class LearnRegex {
 		//STEP 1: Let's first create a pattern using Pattern.compile method, and then save it as a pattern and give it a name of myPattern
 		// The first parameter indicates which pattern is being searched for and 
 		// the second parameter has a flag to indicates that the search should be case-insensitive. The second parameter is optional.
+		// the .CASE INSENSITIVE is called a flag, and there are a few flags: CASE INSENSITIVE, LITERAL, AND UNICODE_CASE
 
 		Pattern myPattern = Pattern.compile("Hallelujah", Pattern.CASE_INSENSITIVE);
 		
